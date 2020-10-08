@@ -62,9 +62,9 @@ namespace BemPromotora.Data
             list4.Add(o16);
 
             PerguntaFormulario p1 = new PerguntaFormulario(1, "Qual sua faixa de idade:", list1);
-            PerguntaFormulario p2 = new PerguntaFormulario(2, "Qual sua faixa de idade:", list2);
-            PerguntaFormulario p3 = new PerguntaFormulario(3, "Qual sua faixa de idade:", list3);
-            PerguntaFormulario p4 = new PerguntaFormulario(4, "Qual sua faixa de idade:", list4);
+            PerguntaFormulario p2 = new PerguntaFormulario(2, "Qual seu convênio:", list2);
+            PerguntaFormulario p3 = new PerguntaFormulario(3, "Qual sua faixa salarial:", list3);
+            PerguntaFormulario p4 = new PerguntaFormulario(4, "Por que você realizou o empréstimo:", list4);
 
 
             _context.Opcoes.AddRange(o1,o2,o3,o4,o5,o6,o7,o8,o9,o10,o11,o12,o13,o14,o15,o16);

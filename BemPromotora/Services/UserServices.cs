@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace BemPromotora.Services
 {
@@ -33,7 +34,7 @@ namespace BemPromotora.Services
             {
                 foreach(Opcoes opcao in contentOpcoes)
                 {
-                    if(opcao.Id == pergunta.Id)
+                    if(opcao.PerguntaFormularioId == pergunta.Id)
                     {
 
                         pergunta.Opcoes.Append(opcao);
@@ -51,10 +52,13 @@ namespace BemPromotora.Services
             int countPerguntas = 0;
             int countOpcoes = 0;
 
+            IEnumerable<SelectListItem> listItems;
+            SelectListItem item;
+            
             string[] viewPerguntas= new string[viewModel.perguntaFormulario.Count()];
             string[,] viewOpcoes= new string[viewModel.perguntaFormulario.Count(),4];
 
-                foreach(PerguntaFormulario pergunta in viewModel.perguntaFormulario)
+            foreach (PerguntaFormulario pergunta in viewModel.perguntaFormulario)
                 {
                     viewPerguntas[countPerguntas] = pergunta.Pergunta;
                     
@@ -68,6 +72,7 @@ namespace BemPromotora.Services
                 countOpcoes = 0;
                 countPerguntas++;
             }
+            
 
             CreateViewModel view = new CreateViewModel(viewModel.usuario, viewModel.perguntaFormulario, viewPerguntas, viewOpcoes);
 

@@ -9,6 +9,7 @@ namespace BemPromotora.Models
     {
         public int Id { get; set; }
         public string opcao { get; set; }
+        public int PerguntaFormularioId { get; set; }
 
         public Opcoes()
         {

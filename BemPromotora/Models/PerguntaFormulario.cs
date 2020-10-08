@@ -16,6 +16,9 @@ namespace BemPromotora.Models
         {
         }
 
+        
+
+        
         public PerguntaFormulario(int id, string pergunta, IEnumerable<Opcoes> opcoes)
         {
             Id = id;

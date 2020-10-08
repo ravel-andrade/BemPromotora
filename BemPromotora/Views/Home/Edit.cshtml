@@ -1,0 +1,71 @@
+﻿
+@model BemPromotora.Models.CreateViewModel
+
+@{
+    ViewData["Title"] = "Editar";
+    int cont = 0;
+}
+
+<h2>Editar</h2>
+
+<h4>Usuario</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <input type="hidden" asp-for="@Model.usuario.Id" />
+            <div class="form-group">
+                <label asp-for="usuario.FaixaIdade" class="control-label">@Model.perguntas[0]</label>
+                <select asp-for="usuario.FaixaIdade" class="form-control">
+                    @for (int i = 0; i < 4; i++)
+                    {
+                        <option value="@Model.opcoes[0,i]">@Model.opcoes[0, i]</option>
+                    }
+                </select>
+                <span asp-validation-for="usuario.FaixaIdade" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="usuario.Convenio" class="control-label">@Model.perguntas[1]</label>
+                <select asp-for="usuario.Convenio" class="form-control">
+                    @for (int i = 0; i < 4; i++)
+                    {
+                        <option value="@Model.opcoes[1,i]">@Model.opcoes[1, i]</option>
+                    }
+                </select>
+                <span asp-validation-for="usuario.Convenio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="usuario.FaixaSalarial" class="control-label">@Model.perguntas[2]</label>
+                <select asp-for="usuario.FaixaSalarial" class="form-control">
+                    @for (int i = 0; i < 4; i++)
+                    {
+                        <option value="@Model.opcoes[2,i]">@Model.opcoes[2, i]</option>
+                    }
+                </select>
+                <span asp-validation-for="usuario.FaixaSalarial" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="usuario.MotivoEmprestimo" class="control-label">@Model.perguntas[3]</label>
+                <select asp-for="usuario.MotivoEmprestimo" class="form-control">
+                    @for (int i = 0; i < 4; i++)
+                    {
+                        <option value="@Model.opcoes[3,i]">@Model.opcoes[3, i]</option>
+                    }
+                </select>
+                <span asp-validation-for="usuario.MotivoEmprestimo" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Editar" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Voltar para lista</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

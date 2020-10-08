@@ -9,8 +9,8 @@ namespace BemPromotora.Models
     {
         public Usuario usuario { get; set; }
         public List<PerguntaFormulario> perguntaFormulario { get; set; }
-        string[] perguntas;
-        string[,] opcoes;
+        public string[] perguntas;
+        public string[,] opcoes;
 
         public CreateViewModel(Usuario usuario, List<PerguntaFormulario> perguntaFormulario)
         {

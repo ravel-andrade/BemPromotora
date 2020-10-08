@@ -13,10 +13,7 @@ C:\Users\Ravel\source\repos\BemPromotora\BemPromotora\obj\Debug\netcoreapp2.1\Be
 C:\Users\Ravel\source\repos\BemPromotora\BemPromotora\obj\Debug\netcoreapp2.1\BemPromotora.TagHelpers.input.cache
 C:\Users\Ravel\source\repos\BemPromotora\BemPromotora\obj\Debug\netcoreapp2.1\BemPromotora.TagHelpers.output.cache
 C:\Users\Ravel\source\repos\BemPromotora\BemPromotora\obj\Debug\netcoreapp2.1\BemPromotora.RazorCoreGenerate.cache
-C:\Users\Ravel\source\repos\BemPromotora\BemPromotora\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
-C:\Users\Ravel\source\repos\BemPromotora\BemPromotora\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
 C:\Users\Ravel\source\repos\BemPromotora\BemPromotora\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\Ravel\source\repos\BemPromotora\BemPromotora\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Ravel\source\repos\BemPromotora\BemPromotora\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Ravel\source\repos\BemPromotora\BemPromotora\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
 C:\Users\Ravel\source\repos\BemPromotora\BemPromotora\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -35,9 +32,8 @@ C:\Users\Ravel\source\repos\BemPromotora\BemPromotora\obj\Debug\netcoreapp2.1\Be
 C:\Users\Ravel\source\repos\BemPromotora\BemPromotora\obj\Debug\netcoreapp2.1\BemPromotora.csproj.CopyComplete
 C:\Users\Ravel\source\repos\BemPromotora\BemPromotora\bin\Debug\netcoreapp2.1\Properties\serviceDependencies.json
 C:\Users\Ravel\source\repos\BemPromotora\BemPromotora\bin\Debug\netcoreapp2.1\Properties\serviceDependencies.local.json
-C:\Users\Ravel\source\repos\BemPromotora\BemPromotora\obj\Debug\netcoreapp2.1\Razor\Views\Usuarios\Create.cshtml.g.cs
-C:\Users\Ravel\source\repos\BemPromotora\BemPromotora\obj\Debug\netcoreapp2.1\Razor\Views\Usuarios\Delete.cshtml.g.cs
-C:\Users\Ravel\source\repos\BemPromotora\BemPromotora\obj\Debug\netcoreapp2.1\Razor\Views\Usuarios\Details.cshtml.g.cs
-C:\Users\Ravel\source\repos\BemPromotora\BemPromotora\obj\Debug\netcoreapp2.1\Razor\Views\Usuarios\Edit.cshtml.g.cs
-C:\Users\Ravel\source\repos\BemPromotora\BemPromotora\obj\Debug\netcoreapp2.1\Razor\Views\Usuarios\Index.cshtml.g.cs
 C:\Users\Ravel\source\repos\BemPromotora\BemPromotora\obj\Debug\netcoreapp2.1\BemPromotora.csproj.CoreCompileInputs.cache
+C:\Users\Ravel\source\repos\BemPromotora\BemPromotora\obj\Debug\netcoreapp2.1\Razor\Views\Home\Create.cshtml.g.cs
+C:\Users\Ravel\source\repos\BemPromotora\BemPromotora\obj\Debug\netcoreapp2.1\Razor\Views\Home\Delete.cshtml.g.cs
+C:\Users\Ravel\source\repos\BemPromotora\BemPromotora\obj\Debug\netcoreapp2.1\Razor\Views\Home\Details.cshtml.g.cs
+C:\Users\Ravel\source\repos\BemPromotora\BemPromotora\obj\Debug\netcoreapp2.1\Razor\Views\Home\Edit.cshtml.g.cs
