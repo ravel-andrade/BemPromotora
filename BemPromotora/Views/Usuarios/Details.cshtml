@@ -1,0 +1,42 @@
+﻿@model BemPromotora.Models.Usuario
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Usuario</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FaixaIdade)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FaixaIdade)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Convenio)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Convenio)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.FaixaSalarial)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.FaixaSalarial)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.MotivoEmprestimo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MotivoEmprestimo)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
